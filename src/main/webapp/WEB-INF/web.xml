@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>Controlador.ControladorServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ControladorServletAuto</servlet-name>
+  	<display-name>ControladorServletAuto</display-name>
+  	<description></description>
+  	<servlet-class>Controlador.ControladorServletAuto</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ControladorServlet</servlet-name>
   	<url-pattern>/ControladorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorServletAuto</servlet-name>
+  	<url-pattern>/ControladorServletAuto</url-pattern>
   </servlet-mapping>
 </web-app>

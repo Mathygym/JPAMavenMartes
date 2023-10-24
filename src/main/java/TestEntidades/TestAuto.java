@@ -28,7 +28,7 @@ public class TestAuto {
 		
 		case "Registrar":
 		  //ingresa,os valores a enviar ala base de datos
-			auto.setColor("whit");
+			auto.setColor("prueba");
 			auto.setModelo("lambo");
 			auto.setMotor("1.2");
 			auto.setPrecio(19000);
